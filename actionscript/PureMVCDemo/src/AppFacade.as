@@ -21,10 +21,10 @@ package
 		override protected function initializeController():void 
 		{
 			super.initializeController();
+			registerCommand(START_UP, StartUpCommand);
 		}
 		
 		public function startup(app : Object) : void {
-			registerCommand(START_UP, StartUpCommand);
 			sendNotification(START_UP, app);
 		}
 		

@@ -7,9 +7,9 @@ package controller
 	 */
 	public class StartUpCommand extends MacroCommand
 	{
-		override protected function addSubCommand(commandClassRef:Class):void 
+		override protected function initializeMacroCommand():void 
 		{
-			super.addSubCommand(initMVCCommand);
+			addSubCommand(initMVCCommand);
 		}
 		
 	}

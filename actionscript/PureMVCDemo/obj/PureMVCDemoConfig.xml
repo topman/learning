@@ -14,18 +14,18 @@
     </define>
     <define append="true">
       <name>CONFIG::timeStamp</name>
-      <value>'2011/2/14'</value>
+      <value>'2011/2/15'</value>
     </define>
     <source-path append="true">
-      <path-element>D:\flash_learning\PureMVCDemo\src</path-element>
+      <path-element>D:\flash_learning\PureMVCDemo\actionscript\PureMVCDemo\src</path-element>
       <path-element>C:\Program Files\FlashDevelop\Library\AS3\classes</path-element>
     </source-path>
     <library-path append="true">
-      <path-element>D:\flash_learning\PureMVCDemo\lib\PureMVC_AS3_2_0_4.swc</path-element>
+      <path-element>D:\flash_learning\PureMVCDemo\actionscript\PureMVCDemo\lib\PureMVC_AS3_2_0_4.swc</path-element>
     </library-path>
   </compiler>
   <file-specs>
-    <path-element>D:\flash_learning\PureMVCDemo\src\Main.as</path-element>
+    <path-element>D:\flash_learning\PureMVCDemo\actionscript\PureMVCDemo\src\Main.as</path-element>
   </file-specs>
   <default-background-color>#FFFFFF</default-background-color>
   <default-frame-rate>30</default-frame-rate>
